@@ -23,4 +23,28 @@ def draw_tree(trunk_length, angle):
     draw_branch(trunk_length, angle)
     done()
 
-draw_tree(100, 20)
+# draw_tree(100, -20)
+
+# draw_tree(100, 0)
+
+# draw_tree(100, 5)
+
+# draw_tree(100, 10)
+
+# draw_tree(100, 15)
+
+# draw_tree(100, 20)
+
+draw_tree(100, 30)
+
+# draw_tree(100, 45)
+
+# draw_tree(100, 60)
+
+# draw_tree(100, 90)
+
+# draw_tree(100, 180)
+
+# draw_tree(100, 270)
+
+# draw_tree(100, 360)
