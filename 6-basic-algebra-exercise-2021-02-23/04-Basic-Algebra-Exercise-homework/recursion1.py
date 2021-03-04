@@ -54,4 +54,4 @@ def draw_tree(trunk_length, angle):
 
 # draw_tree(100, 360)
 
-draw_tree(100, 60)
+draw_tree(120, 30)
