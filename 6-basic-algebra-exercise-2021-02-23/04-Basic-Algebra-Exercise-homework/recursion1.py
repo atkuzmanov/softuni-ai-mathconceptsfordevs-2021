@@ -4,17 +4,20 @@ def draw_branch(branch_length, angle):
     if branch_length > 5:
         forward(branch_length)
         right(angle)
+        pensize(1)
         draw_branch(branch_length - 15, angle)
         left(2 * angle)
         draw_branch(branch_length - 15, angle)
         right(angle)
         backward(branch_length)
+        
 
 # speed("fastest")
 # left(90)
 # draw_branch(100, 20)
 
 def draw_tree(trunk_length, angle):
+    pensize(10)
     speed("fastest")
     left(90)
     up()
@@ -48,3 +51,5 @@ def draw_tree(trunk_length, angle):
 # draw_tree(100, 270)
 
 # draw_tree(100, 360)
+
+draw_tree(100, 60)
