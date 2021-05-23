@@ -32,6 +32,7 @@ import scipy.stats
 import scipy.io.wavfile
 from scipy.fftpack import fft, fftfreq
 
+print("Hello World!")
 
 
 
@@ -39,3 +40,6 @@ from scipy.fftpack import fft, fftfreq
 
 
 
+{{3, -2, 5}, {18, 7, 0}, {0, -25, 4}}
+
+{53,51,103}
